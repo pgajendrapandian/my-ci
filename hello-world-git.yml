@@ -1,0 +1,8 @@
+---
+- platform: linux
+  image_resource:
+     source: {respository: alpine}
+     type: docker-image
+  run:
+     path: echo
+     args: [hello gajendra from git]
