@@ -1,7 +1,7 @@
 ---
 - platform: linux
   image_resource:
-     source: {respository: alpine}
+     source: {repository: alpine}
      type: docker-image
   run:
      path: echo
