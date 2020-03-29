@@ -6,6 +6,6 @@ image_resource:
    type: docker-image
 
 run:
-   path: uname
-   args: [-n]
+   path: date
+   args: [-d]
 
