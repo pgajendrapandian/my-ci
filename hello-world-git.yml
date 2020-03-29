@@ -6,6 +6,6 @@ image_resource:
    type: docker-image
 
 run:
-   path: date
+   path: uptime
    
 
