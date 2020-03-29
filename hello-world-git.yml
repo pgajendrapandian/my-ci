@@ -6,6 +6,6 @@ image_resource:
    type: docker-image
 
 run:
-   path: echo
-   args: [ hello Gajendra from git]
+   path: uname
+   args: [-n]
 
