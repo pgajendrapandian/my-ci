@@ -6,6 +6,7 @@ image_resource:
    type: docker-image
 
 run:
-   path: uptime
+   path: echo
+   args: ['Hello Gajendra, From Git']
    
 
